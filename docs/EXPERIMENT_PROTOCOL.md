@@ -1,0 +1,21 @@
+# P5 fixed computational protocol — 2026-10-21
+
+Current user authorization supersedes the historical unsigned gates. Only the official original TXT in US-101 0750am–0805am is acquired. No third-party reconstructed data.
+
+- Source metadata: Version 1, metadata date 20160408. Actual file extends 07:49:39.7–08:05:32.5 PDT; apply the strict half-open local window [2005-06-15 07:50,08:05), America/Los_Angeles. No invented clock shift.
+- Official Local_Y is front-centre longitudinal position measured forward from entry. Use metre conversion 1200/3937 (US survey foot, as metadata states); apply uniformly to positions, lengths and reported speed. TTC ratios are invariant to this common factor.
+- Structural checks: exact 18 columns; no duplicate vehicle/frame; timestamps consistent with 100 ms frames. Match Preceding to vehicle_id at same frame AND timestamp, same lane, reciprocal Following. Never impute relationships.
+- Retain finite positions, length 1–30 m, declared lane 1–8, reported speed 0–55 m/s for both vehicles. Bounds are broad plausibility screens, not legal limits or empirically optimized thresholds.
+- Require leader ahead and raw net gap >0. Report headway residual and exclusions. Metadata inspection found no missing leader/lane/reciprocal conflicts and headway residual <=0.005 ft. Use 0.02 ft as a rounding-consistency tolerance; fail unclear relationships rather than invent them.
+- Split after any invalid row, missing frame, timestamp discontinuity, follower/leader change, or lane change. Do not interpolate.
+- Raw, SG11 and SG21 process BOTH positions within the identical pair segment; SG polynomial order 2, mode=interp. Compute central numerical velocities from the corresponding processed positions and actual elapsed seconds. Net gap uses the corresponding positions minus the same leader length.
+- Common support: segment length >=23, discard 11 frames at each end for every method (21-point centered filter plus central derivative). No extrapolated edge estimates enter analysis. Acceleration diagnostics use centered second position differences.
+- Per-method validity: positive gap, both derived speeds finite in [0,55] m/s. No speed clamping. Primary comparison uses the intersection of validity across all three methods. Record coverage lost to each method; acceleration magnitude >15 m/s² is flagged, not excluded (this is a noise-sensitivity study, not verified trajectory reconstruction).
+- On valid frames: closing speed >0 => TTC=gap/closing; closing<=0 => infinity (not a declaration of safety). No positive epsilon, clipping or replacement by reported v_Vel. Report finite-only quantiles separately, with common-finite-support quantiles as a paired supplement.
+- Fixed strict TTC thresholds: <1.5 and <3.0 seconds. Save all low frames. Main events require >=3 consecutive 0.1-s frames on same pair/segment; invalid or absent frames break events. Duration is frame-count*0.1 s (discrete exposure convention), not last-minus-first elapsed time; also retain elapsed span. Two frames are not an event. No merging across gaps.
+- Consistency: frame Jaccard includes all low frames; event matches require same original pair segment and overlapping inclusive frame intervals. Deterministic maximum-cardinality one-to-one bipartite overlap matching; report splits/merges separately via edge counts, not duplicate matches.
+- Pilot: first 20 sorted eligible segments, not selected for low TTC. Then all eligible segments. No tuning to event counts. Representative cases selected after analysis with explicit criteria, illustrative only.
+- Descriptive within-sample comparisons, no p-values or claims of significant population changes. No collision labels, accuracy, causal claim, or novel safety algorithm.
+- Main records/large local arrays excluded from Git. Save aggregate CSVs, event-level derived tables, figures, logs, source hashes and tests. The portal CC BY-SA 3.0 and legacy RDE raw-redistribution restriction are both disclosed; no raw redistribution or remote publication.
+
+Implementation correction: the explicit symmetric central difference avoids cancellation on constant positions. See results/README.md. No validity bounds or outcome thresholds changed.

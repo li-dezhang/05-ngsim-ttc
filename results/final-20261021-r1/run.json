@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-21T14:11:26.446097+00:00",
+  "finished_utc": "2026-10-21T14:11:35.161850+00:00",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.2",
+  "pilot": false,
+  "processed_segments": 3944,
+  "candidate_frames": 1009707,
+  "common_valid_frames": 997530,
+  "common_excluded": 12177,
+  "seconds": 8.754858457992668,
+  "local_frame_file": "data/processed/final-20261021-r1.npz",
+  "raw_txt_sha256": "6676066e5b3e7249b7b003a906b28585202623f5d274938b579b4b836f0668c8",
+  "source_sha256": {
+    "src/ngsim/__init__.py": "93e8310f7752d15d8d5d779e52341868a366ac76279af71c0946bc48226f4a7f",
+    "src/ngsim/core.py": "1b265fac34f4ec47accbb5d711cdd2887f05dc512154f7cd65cd6241ee8a5f87",
+    "scripts/run.py": "5e0e66b30212f2f233c24a91c735b0ca01ead2c88ce1bcf5fc27034402d49967",
+    "scripts/plot.py": "7dfb945db4e8fa9664c9967e7062ad961782fd1e8dea2d2bee2b6b908ecf0f7b",
+    "scripts/acquire.py": "5c5c228d035385d3336434a48d4c68eec829545bba5c5f5d51a2eb09f88d2b0e",
+    "scripts/inspect_source.py": "24f1adb5cca770a222241209dc208bb01d8188eb29524ea69b6d1eb19828aba1",
+    "scripts/evaluate.py": "91a0a0d0df8a9d432d6705cea3b504a35f400267d6a9f20e8aa643000e53b802",
+    "scripts/prepare.py": "7470609ee16f746879895222448a166ecacaafb22677129e0089240a77f8f39a"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-10-21T14:04:13.336475+00:00",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.2",
+  "pilot": true,
+  "processed_segments": 20,
+  "candidate_frames": 3931,
+  "common_valid_frames": 3931,
+  "common_excluded": 0,
+  "seconds": 0.13222749999840744,
+  "local_frame_file": "data/processed/pilot-20261021.npz",
+  "raw_txt_sha256": "6676066e5b3e7249b7b003a906b28585202623f5d274938b579b4b836f0668c8",
+  "source_sha256": {
+    "src/ngsim/__init__.py": "93e8310f7752d15d8d5d779e52341868a366ac76279af71c0946bc48226f4a7f",
+    "src/ngsim/core.py": "d55090d2797bcef9fa610f4886e7b42f24d6d6623b5b9a3fcc072195b0b32db7",
+    "scripts/run.py": "a7f48db5285f5a4727c82308b8e5e5b2da5fee3c84092db430f43840c3776fcd",
+    "scripts/acquire.py": "5c5c228d035385d3336434a48d4c68eec829545bba5c5f5d51a2eb09f88d2b0e",
+    "scripts/inspect_source.py": "0d1edbe80fb11f0ea68d06142a9ce7927a736812cf88ad5920ff647f46c10c7b",
+    "scripts/evaluate.py": "9fed038a8913ae61da5cfab0d4bd01f76985f5e2e837e0833d161cc0b102290b",
+    "scripts/prepare.py": "7470609ee16f746879895222448a166ecacaafb22677129e0089240a77f8f39a"
+  }
+}

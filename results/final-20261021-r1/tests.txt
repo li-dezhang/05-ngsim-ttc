@@ -1,0 +1,20 @@
+test_breaks (test_core.Tests.test_breaks) ... ok
+test_common_support (test_core.Tests.test_common_support) ... ok
+test_different_frame (test_core.Tests.test_different_frame) ... ok
+test_event_count (test_core.Tests.test_event_count) ... ok
+test_gap_length (test_core.Tests.test_gap_length) ... ok
+test_gaps_not_smoothed (test_core.Tests.test_gaps_not_smoothed) ... ok
+test_lane_change (test_core.Tests.test_lane_change) ... ok
+test_no_leader (test_core.Tests.test_no_leader) ... ok
+test_nonclosing (test_core.Tests.test_nonclosing) ... ok
+test_one_to_one_overlap (test_core.Tests.test_one_to_one_overlap) ... ok
+test_pair (test_core.Tests.test_pair) ... ok
+test_short (test_core.Tests.test_short) ... ok
+test_stationary_exact_zero (test_core.Tests.test_stationary_exact_zero) ... ok
+test_threshold (test_core.Tests.test_threshold) ... ok
+test_units_derivative (test_core.Tests.test_units_derivative) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.024s
+
+OK

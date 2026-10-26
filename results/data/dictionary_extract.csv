@@ -1,0 +1,29 @@
+field,description
+vehicle_id,Vehicle identification number (ascending by time of entry into section). REPEATS ARE NOT ASSOCIATED. 
+frame_id, Frame Identification number (ascending by start time)
+global_time,"Elapsed time in milliseconds since Jan 1, 1970."
+local_x,"Lateral (X) coordinate of the front center of the vehicle in feet with respect to
+the left-most edge of the section in the direction of travel."
+local_y,"Longitudinal (Y) coordinate of the front center of the vehicle in feet with
+respect to the entry edge of the section in the direction of travel."
+v_length,Length of vehicle in feet
+v_vel,Instantaneous velocity of vehicle in feet/second.
+v_acc,Instantaneous acceleration of vehicle in feet/second square.
+lane_id,"Current lane position of vehicle. Lane 1 is farthest left lane; lane 5 is farthest
+right lane. Lane 6 is the auxiliary lane between Ventura Boulevard on-ramp and the Cahuenga
+Boulevard off-ramp. Lane 7 is the on-ramp at Ventura Boulevard, and Lane 8 is the off-ramp at
+Cahuenga Boulevard."
+preceding,"Vehicle ID of the lead vehicle in the same lane. A value of '0' represents no
+preceding vehicle - occurs at the end of the study section and off-ramp due to the fact that only
+complete trajectories were recorded by this data collection effort (vehicles already in the section
+at the start of the study period were not recorded)."
+following,"Vehicle ID of the vehicle following the subject vehicle in the same lane. A
+value of '0' represents no following vehicle - occurs at the beginning of the study section and onramp
+due to the fact that only complete trajectories were recorded by this data collection effort
+(vehicle that did not traverse the downstream boundaries of the section by the end of the study
+period were not recorded)."
+space_headway,"Space Headway in feet. Spacing provides the distance between the frontcenter
+of a vehicle to the front-center of the preceding vehicle."
+time_headway,"Time Headway in seconds. Time Headway provides the time to travel from
+the front-center of a vehicle (at the speed of the vehicle) to the front-center of the preceding
+vehicle. A headway value of 99"

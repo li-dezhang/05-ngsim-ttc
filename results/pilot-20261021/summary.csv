@@ -1,0 +1,7 @@
+method,threshold,common_frames,common_segments,finite_ttc,nonclosing_frames,low_frames,low_fraction_common,low_fraction_finite,all_low_runs,events_ge3,retained_event_frames,mean_duration_s,median_duration_s,total_event_exposure_s
+raw,1.5,3931,20,1221,2710,0,0.0,0.0,0,0,0,,,0.0
+raw,3.0,3931,20,1221,2710,0,0.0,0.0,0,0,0,,,0.0
+sg11,1.5,3931,20,1220,2711,0,0.0,0.0,0,0,0,,,0.0
+sg11,3.0,3931,20,1220,2711,0,0.0,0.0,0,0,0,,,0.0
+sg21,1.5,3931,20,1162,2769,0,0.0,0.0,0,0,0,,,0.0
+sg21,3.0,3931,20,1162,2769,0,0.0,0.0,0,0,0,,,0.0

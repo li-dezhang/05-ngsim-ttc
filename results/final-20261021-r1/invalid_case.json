@@ -1,0 +1,8 @@
+{
+  "follower": 1328,
+  "leader": 1321,
+  "rejected_frames": 125,
+  "min_gap_m": -9.6067056134112,
+  "max_gap_m": -0.24079248158495206,
+  "selection": "pair with most nonpositive-gap observations; illustrative only"
+}

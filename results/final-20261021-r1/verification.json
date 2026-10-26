@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-21T14:13:06.470002+00:00",
+  "independent_summary_checks": 12,
+  "regenerated_files_identical": 17,
+  "full_repeat_comparison": null,
+  "sha256": {
+    "results/final-20261021-r1/summary.csv": "b79b46eafc6fb55ebe30316896cad5d1682b63fc187f0d1d1ae9c38bcd8e886d",
+    "results/final-20261021-r1/ttc_distribution.csv": "ff90ad05974e882260233453292a492ee970c8be9a1550719132c5ac0f2e8908",
+    "results/final-20261021-r1/method_quality.csv": "8a183ea76e44ab50b4610b529de0638890bb4815721b1c80d834d667cc996b70",
+    "results/final-20261021-r1/case_smoothing_disagreement.csv": "b258b8ea661aba819709225c9bc216db970e559eaa5d9d296f8d22d49c0f5645",
+    "results/final-20261021-r1/consistency.csv": "a8801be8915901fd61403af279d5b620197c119a784caea3b66909c9631a4898",
+    "results/final-20261021-r1/ttc_ecdf.csv": "5bb014f328ea5507fdad3c11aedb85e609f29097c5f5dee0871cdbb85cdff7dc",
+    "results/final-20261021-r1/case_short_raw_spikes.csv": "fded5251ca2e991f4555f0f7aeb6084e9ba75d66002b3bc7a59dba71c88f31c5",
+    "results/final-20261021-r1/events.csv": "ab2b703cb44a3a0924da81e7d4278a36c5438641beedc9db051749c82b5019a9",
+    "results/final-20261021-r1/case_threshold_change.csv": "9d39f47feb66d1387a252cfa2ccc6f42328b37e1f57897e7737131a9114c55f0",
+    "figures/final-20261021-r1/01_workflow.png": "accbaff744ae7df4a282af95235414a9e963232e9433fc4c9c794964d50899ec",
+    "figures/final-20261021-r1/02_03_case_smoothing_disagreement.png": "10b5345f00e42335c9c7e43d8571d157fc8f83bb5f7489e8c2a3b288f99f0083",
+    "figures/final-20261021-r1/07_invalid_gap_example.png": "0779e532e3469c6c76200573d145c589fa1364a6f8867fcb043be64cad5447f4",
+    "figures/final-20261021-r1/04_event_counts.png": "fef07c46c228b8870f94c8a1c45dd2193f4d17db3a60228f56c48958f6f194d7",
+    "figures/final-20261021-r1/05_ttc_distribution.png": "52044bcd894e34ab53891aa2b9755eb0b8ea9a785605fe0e249941c4ce12a297",
+    "figures/final-20261021-r1/02_03_case_threshold_change.png": "695de42f22633b7d1bb6e6c763fa8e9f569119bdd603aef096a107e661148384",
+    "figures/final-20261021-r1/06_frame_consistency.png": "ff440ab86ecf586af85916ca321ad1cbb01add93571eddffd476348caaf28bf5",
+    "figures/final-20261021-r1/02_03_case_short_raw_spikes.png": "6ec5487ba95bc58043efc146cde4a372cef75f0abe7141b61b32c1ddf08d19a8"
+  }
+}

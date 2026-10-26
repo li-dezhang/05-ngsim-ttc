@@ -1,0 +1,17 @@
+[
+  {
+    "case": "smoothing_disagreement",
+    "segment": 1892,
+    "criterion_count": 13
+  },
+  {
+    "case": "threshold_change",
+    "segment": 4146,
+    "criterion_count": 49
+  },
+  {
+    "case": "short_raw_spikes",
+    "segment": 4090,
+    "criterion_count": 3
+  }
+]

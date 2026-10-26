@@ -1,0 +1,7 @@
+stage,reason,n
+time_window,outside_0750_0805,15398
+pair_validation,no_leader,56872
+pair_validation,nonpositive_raw_gap,1909
+pair_validation,leader_not_ahead,1
+support,short_segment,9943
+support,common_boundary_trim,86768

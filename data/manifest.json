@@ -1,0 +1,42 @@
+{
+  "acquired_utc": "2026-10-21T13:58:31.364041+00:00",
+  "source_page": "https://data.transportation.gov/d/8ect-6jqj",
+  "official_metadata_edition": "Version 1, publication 2016, metadata 20160408; observations June 15 2005",
+  "portal_rows_updated_at": 1535394233,
+  "scope": "original TXT of official named 0750am-0805am member only",
+  "archive_size_not_downloaded": 327638049,
+  "trajectory_compressed_transfer_bytes": 32538014,
+  "licence": "Portal CC BY-SA 3.0; legacy RDE metadata requires attribution and asks users to refrain from raw redistribution; keep raw local and flag release distinction",
+  "files": [
+    {
+      "path": "data/raw/portal_metadata.json",
+      "url": "https://data.transportation.gov/api/views/8ect-6jqj.json",
+      "bytes": 56656,
+      "sha256": "ff11e3eb97880d3ad4bad0866e155483f4caebe30bc5d26050508c7debc25eb6"
+    },
+    {
+      "path": "data/raw/US_101_Metadata_Documentation.pdf",
+      "url": "https://data.transportation.gov/api/views/8ect-6jqj/files/50459f5f-c40b-4eec-b9a0-72dfef577f15?download=true",
+      "bytes": 557844,
+      "sha256": "3a3009e2fac9701784de9fd2768b726ab4d46f8f0faaed4310b58669419c12c8"
+    },
+    {
+      "path": "data/raw/trajectories-0750am-0805am.deflate",
+      "url": "https://data.transportation.gov/api/views/8ect-6jqj/files/ae894ea3-70b5-400e-b8ed-dc60e1827224?download=true",
+      "range": "bytes=165160083-197698096",
+      "nested_member": "us-101-vehicle-trajectory-data.zip/vehicle-trajectory-data/0750am-0805am/trajectories-0750am-0805am.txt",
+      "bytes": 32538014,
+      "sha256": "8233e7eefdb40cbbeb4249152f79645d256717d71e3ffd6e6e6100fc8379850b",
+      "crc32_uncompressed": 3937205269
+    },
+    {
+      "path": "data/raw/trajectories-0750am-0805am.txt",
+      "url": "https://data.transportation.gov/api/views/8ect-6jqj/files/ae894ea3-70b5-400e-b8ed-dc60e1827224?download=true",
+      "range": "bytes=165160083-197698096",
+      "nested_member": "us-101-vehicle-trajectory-data.zip/vehicle-trajectory-data/0750am-0805am/trajectories-0750am-0805am.txt",
+      "bytes": 167644916,
+      "sha256": "6676066e5b3e7249b7b003a906b28585202623f5d274938b579b4b836f0668c8",
+      "crc32_uncompressed": 3937205269
+    }
+  ]
+}

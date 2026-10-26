@@ -1,0 +1,2 @@
+raw_rows,raw_vehicles,raw_unique_frames,raw_start,raw_end,window_rows,window_vehicles,window_unique_frames,duplicate_keys,missing_values,irregular_time_steps,irregular_frame_steps,backward_steps,variable_vehicle_lengths,lane_changes,leader_changes,valid_pair_rows,pair_segments,eligible_segments,short_segment_rows,boundary_rows,headway_max_abs_residual_ft,metres_per_foot
+1180598,2169,9529,2005-06-15 07:49:39.700000-07:00,2005-06-15 08:05:32.500000-07:00,1165200,2169,9000,0,0,0,0,0,0,1319,5464,1106418,5001,3944,9943,86768,0.005000000000435989,0.3048006096012192
